@@ -3,8 +3,7 @@ import pandas as pd
 from dateutil import parser
 import locale
 
-# Set locale untuk format mata uang (ID untuk Indonesia)
-locale.setlocale(locale.LC_ALL, 'id_ID.UTF-8')
+
 
 def parse_date(date_str):
     try:
