@@ -5,8 +5,7 @@ from io import BytesIO
 import locale
 import os
 
-# Mengatur locale untuk format angka
-locale.setlocale(locale.LC_ALL, 'id_ID.UTF-8')
+
 
 def map_product_name(kode):
     mapping = {
