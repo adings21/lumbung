@@ -6,8 +6,7 @@ from io import BytesIO
 import locale
 import os
 
-# Set locale for number formatting
-locale.setlocale(locale.LC_ALL, 'id_ID.UTF-8')
+
 
 def generate_invoice_number_Bulk(row, invoice_month_year):
     warehouse = row['WarehouseName'].lower()
