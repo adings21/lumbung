@@ -4,8 +4,7 @@ from babel.numbers import format_decimal
 from io import BytesIO
 import locale
 
-# Set locale for number formatting
-locale.setlocale(locale.LC_ALL, 'id_ID.UTF-8')
+
 
 def map_product_name(kode):
     mapping = {
