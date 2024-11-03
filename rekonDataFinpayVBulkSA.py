@@ -3,8 +3,7 @@ import pandas as pd
 import locale
 from io import BytesIO
 
-# Set locale untuk format mata uang (ID untuk Indonesia)
-locale.setlocale(locale.LC_ALL, 'id_ID.UTF-8')
+
 
 def perform_analysis_Bulks(finpayKolaka, mutasi_kolaka_sebulan, location):
     finpayKolaka.columns = [
